@@ -1,0 +1,144 @@
+
+body {
+	background-image: url(image/fond3.jpg); 
+	background-size: cover;
+	font-size: 18px;
+	text-align:center;
+	font-family:Times;
+
+
+}
+h1,h2{
+	font-family: ;
+	font-weight:600px;
+	color: rgb(0,0,0 );
+}
+
+}
+
+h1{
+	font-family: Noto Serif;
+	font-size: 45px;
+	letter-spacing: 1.5px;
+	
+}
+
+h2{
+	font-style: italic;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 30px;
+    letter-spacing: 2px
+  	background-image: url(image/cinéma.png);
+    	
+}
+
+p{
+	color:rgb(70,76,69);
+	font-family: helvetica;
+	text-justify:center; 
+	font-size:19px;
+	font-weight: lighter;
+}
+
+a{
+	font-family: Times;
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-size: 22px;
+
+}
+a:hover{
+	color: red;
+} 
+
+a{
+	display:inline-block
+}
+
+#first-img{
+	
+	border: 2px;
+	border-radius: 7%;
+	box-shadow: 0px 10px 10px;
+}
+
+#img-photo{
+	width: 350px;
+	height: 250px;
+}
+#img-link{
+	width: 200px;
+	height: 150px;
+}
+.img-center{
+	border-radius: 2%;
+	height:275px;
+	width:200px;
+}
+.img-cuisine{
+	border-color:black;
+}
+
+.card-white{
+	border-image: auto auto;
+	background-color: #F1EAE9;
+	box-sizing: content-box;
+	width: 100%;
+	box-shadow: 0px 10px 30px black;
+	border-radius: 4px;
+	padding: 40px;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.container {
+	width: 900px;
+	margin: 0px auto;
+  
+ }
+
+div{
+
+  border-radius: 4px;
+  color: black;
+  margin: 40px;
+  padding: 10px;
+  border: 1px #8E4162;
+  box-shadow: 2px 2px 3PX white
+  border: 1px #8E4162;
+ 
+}
+	
+
+@media(max-width: 760px){
+	.container{
+		width: 600px; 
+	}
+}
+@media(max-width: 700px){
+	.container{
+		width: 40px auto; 
+	}
+}
+@media(max-width: 500px){
+	.container{
+		width: 400px; 
+	}
+}
+
+.list-inline{
+	list-style-type:none;
+	padding-left:0px;
+
+}
+
+.list-inline >li {
+	padding-left: 0px;
+	font-size: 30px;
+	padding: 0px 20px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+
+}
